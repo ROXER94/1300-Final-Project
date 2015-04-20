@@ -1,0 +1,366 @@
+/*all pages*/
+
+body {
+	background-image: url("../images/background.jpg");
+	/*Image sourced from http://wallpaperscraft.com/download/cubes_colorful_background_bright_texture_69743/1920x1200*/ 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	word-spacing: 5px;
+}
+
+h1{
+	font-family:'Cinzel Decorative', cursive;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+table{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	word-spacing: 5px;
+}
+
+#page {
+	margin: auto;
+	margin-top: 0px;
+	width: 850px;
+	background-color: rgba(255,255,255,0.90);
+	height: 100%;
+	overflow: hidden;
+}
+
+#header h1 {
+	margin: 15px;
+	padding: 30px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 40px;
+	color: #fdd035;
+	text-shadow: -1px -1px 0 #000, 
+	1px -1px 0 #000, 
+	-1px 1px 0 #000, 
+	1px 1px 0 #000;
+}
+
+#nav {
+	background-color: #fdd035;
+	padding: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13.5px;
+}
+
+#navigation li {
+	display: inline;
+	padding: 10px;
+	padding: 30px
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #565452;
+}
+
+#navigation a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#navigation a:active {
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+	text-align: center;
+	padding: 30px 20px 30px 30px;
+}
+
+#mainimg {
+	width: 800px;
+}
+/*end of all pages*/
+
+
+/*members menu bar in Gallery pages*/
+#leftmenu {
+	width:150px;
+	text-align:left;
+	float:left;
+	display: inline-block;
+}
+
+#leftmenu ul {
+	list-style-type: none;
+	font-family:'Raleway',sans-serif;
+	font-size: 13px;
+	padding-left: 15px;
+}
+
+#leftmenu a {
+	text-decoration: none;
+	color: #565452;
+}
+
+#leftmenu a:hover {
+	text-decoration: none;
+	color:#fdd035;
+}
+
+/*Content on the right side in Gallery pages*/
+#rightpage {
+	width:640px;
+	display: inline-block;
+	text-align:left;
+}
+
+#memberprofile {
+	float: left;
+	padding-bottom: 15px;
+}
+
+#membertext {
+	width:460px;
+	float:left;
+	display: inline-block;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #fdd035;
+}
+
+#thumbnails {
+	float:left;
+}
+
+.imgthumb{
+	width: 200px;
+	height: 200px;
+	padding: 0px;
+	margin: 2px;
+	float: left;
+	border: 1px solid gray;
+	overflow: hidden;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.imgthumb img{
+	max-height: 100%;
+	display: block;
+	margin: auto;
+}
+
+#backtomain {
+	font-size: 10px;
+	text-align: right;
+	word-spacing: 0px;
+}
+
+#backtomain a {
+	text-decoration: none;
+}
+
+#backtomain a:hover {
+	text-decoration: none;
+	color:#fdd035;
+}
+
+#main {
+	width: 750px;
+}
+
+/*Resources page*/
+
+#suggestionbox{
+	border: 3px dashed #fcba45;
+	width: 36%;
+	height: 100%;
+	background-color: rgba(253,208,53,0.7);
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 25px;
+}
+
+#suggestionbox p{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#suggestionbox h2{
+	padding-left:5px;
+	color: black;
+}
+
+#resources{
+	float: left;
+	width: 60%;
+	height: 100%;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+#resources h2{
+	font-size: 22px;
+	font-family: 'Raleway', serif;
+	color: black;
+	padding: 0px;
+	margin: 0px;
+}
+
+#resourcesinfo {
+	width: 460px;
+}
+
+.oneresource{
+	border-top: 2px solid #fdd035;
+	width: 460px;
+}
+.oneresource a{
+    text-decoration: none;
+    color: #3963A7;
+}
+
+.oneresource a:hover{
+    text-decoration: none;
+    color: #fdd035;
+}
+
+.oneresource h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+.oneresource p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+/*end of resources page*/
+
+/*contacts page*/
+#contacts {
+	padding: 30px;
+	padding-left: 180px;
+}
+
+#contactinfo tr td{
+	padding-top: 15px;
+	padding-right: 15px;
+}
+
+.officer {
+	border-bottom: 2px solid #fdd035;
+}
+
+.name {
+	margin-bottom: 2px;
+
+}
+.contactimage {
+	width: 200px;
+}
+
+/*end of contacts page*/
+
+
+/*login*/
+.logininfo{
+	min-width: 130px;
+	max-width: 200px;
+	min-height: 75px;
+	float:right;
+	padding: 3px;
+	position: fixed;
+	top: 6%;
+	right: 4%;
+	background-color: rgba(253,208,653,0.85);
+	overflow: hidden;
+}
+
+.logininfo p{
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+#logincontent{
+	width: 250px;
+	height: 400px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: rgba(255,255,255,0.0);
+	border: 2px solid #fdd035;
+	overflow: hidden;
+	margin: auto;
+}
+.loginthumb{
+	padding: 5px;
+	min-width: 50px;
+	min-height: 30px;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	background-color: rgba(253,208,53,0.85);
+	overflow: hidden;
+}
+.loginthumb p{
+	font-size: 12px;
+	text-align: center;
+}
+.loginthumb a {
+    text-decoration: none;
+    color: #565452;
+}
+
+.loginthumb a:hover {
+    text-decoration: none;
+    color: white;
+}
+/*end of login*/
+
+/*announcements page*/
+#announcements {
+	text-align: center;
+}
+
+#atable {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	margin-top: 0px;
+}
+
+
+.date {
+	width: 150px;
+	padding-bottom: 30px;
+}
+
+.info {
+	width: 550px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 2px solid #fdd035;
+}
+
+.person {
+	width: 100px;
+	padding-bottom: 30px;
+}
+
+/*end of announcements*/

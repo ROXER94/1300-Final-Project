@@ -1,0 +1,314 @@
+body {
+	background-image: url("../images/background.jpg");
+	/*Image sourced from http://wallpaperscraft.com/download/cubes_colorful_background_bright_texture_69743/1920x1200*/ 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 90%;
+	word-spacing: 5px;
+}
+
+h1{
+	font-family:'Cinzel Decorative', cursive;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 130%;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 115%;
+}
+
+#page {
+	margin: auto;
+	margin-top: 0px;
+	width: 100%;
+	background-color: rgba(255,255,255,0.90);
+	height: 100%;
+	overflow: hidden;
+}
+
+#header h1 {
+	margin: 5px;
+	padding: 5px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-size: 40px;
+	color: #fdd035;
+	text-shadow: -1px -1px 0 #000, 
+	1px -1px 0 #000, 
+	-1px 1px 0 #000, 
+	1px 1px 0 #000;
+}
+
+#nav {
+	background-color: #fdd035;
+	padding: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+}
+
+#navigation li {
+	text-align: center;
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: -40px;
+	padding-left: 0px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #565452;
+}
+
+#navigation a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+	text-align: center;
+	margin: 0px;
+	padding: 10px;
+	width: 95%;
+	height: auto;
+	text-align: center;
+}
+
+#mainimg{
+	width: 100%;
+}
+
+/*members menu bar in Gallery pages*/
+#leftmenu {
+	width:100%;
+	text-align:center;
+	float:left;
+	display: inline-block;
+}
+
+#leftmenu ul {
+	list-style-type: none;
+	font-family:'Raleway',sans-serif;
+	font-size: 90%;
+	padding-left: 0px;
+}
+
+#leftmenu a {
+	text-decoration: none;
+	color: #565452;
+}
+
+#leftmenu a:hover {
+	text-decoration: none;
+	color:#fdd035;
+}
+
+/*Conent on the right side in Gallery pages*/
+#rightpage {
+	width:100%;
+	display: inline-block;
+	text-align:left;
+}
+
+#memberprofile {
+	float: left;
+	padding-bottom: 15px;
+}
+
+#membertext {
+	width:100%;
+	float:left;
+	display: inline-block;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #fdd035;
+}
+
+#thumbnails {
+	float:left;
+}
+
+.imgthumb{
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+	margin: 2px;
+	float: left;
+	border: 1px solid gray;
+	overflow: hidden;
+}
+
+.imgthumb img{
+	max-height: 100%;
+	display: block;
+	margin: auto;
+}
+
+#backtomain {
+	font-size: 10px;
+	text-align: right;
+	word-spacing: 0px;
+}
+
+#backtomain a {
+	text-decoration: none;
+}
+
+#backtomain a:hover {
+	text-decoration: none;
+	color:#fdd035;
+}
+
+#main {
+	width: 750px;
+}
+
+
+/*calendar*/
+iframe {
+	border-width: 0; 
+	width: 95%; 
+	height: 500px;
+}
+/*end of calendar*/
+
+/*resources*/
+#suggestionbox {
+	width: 98%;
+	border: 3px dashed #fcba45;
+	background-color: rgba(253,208,53,0.7);
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom: 20px;
+}
+
+#resources{
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.oneresource{
+	border-top: 2px solid #fdd035;
+}
+
+/*end of resources*/
+
+/*contacts page*/
+#contacts {
+	padding: 10px;
+}
+
+#contactinfo {
+	width: 95%;
+	text-align: center;
+}
+
+#contactinfo tr td{
+	padding-top: 15px;
+	padding-right: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 90%;
+	word-spacing: 5px;
+}
+
+.officer {
+	border-bottom: 2px solid #fdd035;
+}
+
+.name {
+	margin-bottom: 2px;
+
+}
+.contactimage {
+	width: 100px;
+}
+
+/*end of contacts page*/
+
+/*announcements page*/
+#announcements {
+	text-align: center;
+}
+
+#atable {
+	padding: 10px;
+}
+
+.subsection td {
+	font-family: 'Raleway', sans-serif;
+	font-size: 90%;
+	word-spacing: 5px;
+}
+
+.info {
+	border-bottom: 2px solid #fdd035;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+/*end of announcements*/
+
+/*login*/
+.logininfo{
+	min-width: 130px;
+	max-width: 200px;
+	min-height: 75px;
+	float:right;
+	padding: 3px;
+	position: fixed;
+	top: 6%;
+	right: 4%;
+	background-color: rgba(253,208,53,0.85);
+	overflow: hidden;
+}
+
+.logininfo p{
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+#logincontent{
+	width: 250px;
+	height: 400px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: rgba(255,255,255,0.5);
+	border: 2px solid #fdd035;
+	overflow: hidden;
+	margin: auto;
+}
+.loginthumb{
+	padding: 5px;
+	min-width: 50px;
+	min-height: 30px;
+	background-color: rgba(253,208,53,0.85);
+	overflow: hidden;
+}
+.loginthumb p{
+	font-size: 13px;
+	padding: 3px;
+	margin: 0px;
+	text-align: center;
+}
+
+.loginthumb a {
+    text-decoration: none;
+    color: #565452;
+}
+
+.loginthumb a:hover {
+    text-decoration: none;
+    color: white;
+}
+/*end of login*/
